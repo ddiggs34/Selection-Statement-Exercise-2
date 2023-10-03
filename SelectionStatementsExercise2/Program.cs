@@ -11,7 +11,7 @@ namespace SelectionStatementsExercise2
             Console.WriteLine("What was your favorite subject in school?");
             string subject = Console.ReadLine();
 
-            switch(subject)
+            switch(subject.ToUpper())
             {
                 case "English":
                 case "english":
